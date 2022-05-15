@@ -9,7 +9,6 @@ export default class HomeComponent extends React.Component{
         return(
             <div>
                 <h1>Página principal</h1>
-                <a href="/especies">Especies en peligro de extinción</a>
             </div>
         );
     }
