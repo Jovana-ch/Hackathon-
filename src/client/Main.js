@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import routes from './routes';
 import NotFound from './NotFound';
+import MapAllowedRoutes from './MapAllowedRoutes';
 
 const Main = () => {
   const computedRoutes = routes.map(({ path, exact, component: C, ...rest }) => (
@@ -10,7 +11,7 @@ const Main = () => {
   return (
     <main>
       <Switch>
-        {computedRoutes}
+        <MapAllowedRoutes routes={routes}/>
         <Route render={props => <NotFound {...props} />} />
       </Switch>
     </main>

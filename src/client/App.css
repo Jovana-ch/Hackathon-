@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  max-width: 90%;
+  margin-left: 3%;
+}
+
+.especie{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  margin: 5%;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px 2px rgb(97, 97, 97);
+}
+
+img{
+  margin: 3%;
+  width: 150px;
+  height: 200px;
+}
+
+.especiesGeneral{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.especiesGeneral>* {
+  flex: 1 1 160px;
+}

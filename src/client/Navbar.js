@@ -4,26 +4,9 @@ import { Link } from "react-router-dom";
 export default class Navbar extends React.Component{
     constructor(){
         super();
-        this.state = {
-            searchText: ""
-        }
-        this.handleChangeSearch = this.handleChangeSearch.bind(this);
-        this.onClickSearch = this.onClickSearch.bind(this);
-    }
-
-    handleChangeSearch(event){
-        const target = event.target;
-        const value = target.value;
-        this.setState({searchText: value})
-    }
-
-    onClickSearch(){
-        const {searchText} = this.state;
-        console.log(searchText);
     }
 
     render(){
-        const {searchText}= this.state;
 
         return(
         <div>
@@ -41,14 +24,7 @@ export default class Navbar extends React.Component{
                             <li className="nav-item">
                                 <Link className="nav-link active" to={"/Hackathon-/especies"}>Especies en peligro de extinción.</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link active" to={"/Hackathon-/"}>¿Cómo usar el api?</Link>
-                            </li>
                         </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" onChange={this.handleChangeSearch} value={searchText}/>
-                            <button class="btn btn-outline mb1 black" type="button" onClick={this.onClickSearch}>Buscar</button>
-                        </form>
                     </div>
                 </div>
             </nav>
