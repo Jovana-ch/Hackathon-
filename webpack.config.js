@@ -64,7 +64,7 @@ module.exports = {
     proxy: {
       '/api': 'http://localhost:3003',
       '/hackathon-api': {
-        target: 'http://localhost:3003/',
+        target: 'http://localhost:3003/v1/',
         pathRewrite: { '^/hackathon-api': '' },
         secure: false
       }

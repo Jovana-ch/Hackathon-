@@ -5,6 +5,7 @@ import { faPlusCircle } from '@fortawesome/free-solid-svg-icons'
 
 import ModalSeeEspecie from "./ModalSeeEspecie";
 import ModalAddEspecie from "./ModalAddEspecie";
+import { getAll } from "../../actions/especies";
 
 const data = [{title: "Tigre", url: "http://1.bp.blogspot.com/-_RF_XDfRVJg/TcGlZnIuFjI/AAAAAAAAAPA/Q7H9QBFNXZA/s1600/572737-1024x768-tiger.jpg",
     description: "El tigre...", cause: "Caza excesiva"},
@@ -36,7 +37,7 @@ export default class EspeciesComponent extends React.Component{
     }
 
     componentDidMount(){
-        this.setState({data: data})
+        getAll().then(res=>this.setState({data: res}))
     }
 
     setShowModalSee(){
@@ -67,14 +68,12 @@ export default class EspeciesComponent extends React.Component{
                 <ModalAddEspecie show={showModalAdd} setShow={this.setShowModalAdd} />
                 <br/>
                 <h1>Especies en peligro de extinción</h1><br/>
-                <h6>¿Sabes de otra especie marina en peligro de extinción? Agrégala 
-                    <FontAwesomeIcon icon={faPlusCircle} color="black" 
-                    onClick={this.onClickAdd} style={{marginLeft:"2%"}}/></h6>
+                
                 <div className="especiesGeneral">
                     {data.map((especie)=>{
                         return(
                             <div className="especie" onClick={()=>this.onClickImage(especie)}>
-                                <label>{especie.title}</label>
+                                <label>{especie.name}</label>
                                 <img src={especie.url} alt="display image"/>
                             </div>
                         )

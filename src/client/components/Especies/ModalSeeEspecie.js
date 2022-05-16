@@ -8,9 +8,9 @@ export default function ModalSeeEspecie({ show, setShow, data }) {
     const [cause, setCause] = React.useState("");
  
     function onShow() {
-        setName(data.title);
+        setName(data.name);
         setImagen(data.url);
-        setDescription(data.description);
+        setDescription(data.Descripcion);
         setCause(data.cause);
     };
 

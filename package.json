@@ -16,6 +16,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "4.0.3",
     "react-table": "^6.8.6",
+    "reactstrap": "^9.0.2",
     "semantic-ui-react": "^2.1.2",
     "web-vitals": "^2.1.4"
   },
