@@ -162,6 +162,9 @@ class Example extends Component {
                 <h3>¿Qué podemos hacer nosotros?</h3>
                 <h6>
                 <ul>
+                    <li>Utilizar menos productos de plástico. No solo las playas están llenas de plástico, el interior de los mares y océanos se han convertido en grandes vertederos.</li>
+                    <li>Comprar productos de mar que sean sostenibles y respetuosos. Ten en cuenta, por ejemplo, qué tipo de pescado consumes.</li>
+                    <li>Utilizar productos biodegradables en las playas. Es una manera de no dejar tu huella contaminante cuando pases tiempo en las playas y garantizar la protección de las especies marinas.</li>
                     <li>Denuncia la cacería ilegal.</li>
                     <li>Denuncia el mercadeo de especies en el mercado negro</li>
                     <li>Sigue las indicaciones de los responsables de cuidar especies y ecosistemas, si ellos dicen que no te puedes llevar ni siquiera arena, NO LO HAGAS.</li>
