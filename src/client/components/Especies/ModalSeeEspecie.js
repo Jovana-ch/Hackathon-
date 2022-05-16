@@ -29,7 +29,7 @@ export default function ModalSeeEspecie({ show, setShow, data }) {
             </Modal.Header>
             <Modal.Body>
                 <div style={{display: 'flex', flexDirection: "column", alignItems:"center"}}>
-                    <img src={imagen} alt="display image" style={{borderRadius: '5px'}}/>
+                    <img className='especieImg' src={imagen} alt="display image" style={{borderRadius: '5px'}}/>
                     <h3>{name}</h3><br/>
                     <label>{description}</label><br/>
                     <h6>Causas por las que está en peligro de extinción: </h6>

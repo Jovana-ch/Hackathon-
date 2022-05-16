@@ -74,7 +74,7 @@ export default class EspeciesComponent extends React.Component{
                         return(
                             <div className="especie" onClick={()=>this.onClickImage(especie)}>
                                 <label>{especie.name}</label>
-                                <img src={especie.url} alt="display image"/>
+                                <img className="especieImg" src={especie.url} alt="display image"/>
                             </div>
                         )
                     })}

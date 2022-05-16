@@ -53,7 +53,7 @@
   box-shadow: 1px 2px 2px 2px rgb(97, 97, 97);
 }
 
-img{
+.especieImg{
   margin: 3%;
   width: 150px;
   height: 200px;
@@ -66,4 +66,9 @@ img{
 
 .especiesGeneral>* {
   flex: 1 1 160px;
+}
+
+.carruselImg{
+  width: 1400px;
+  height: 500px;
 }
