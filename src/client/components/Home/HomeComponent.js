@@ -125,6 +125,50 @@ class Example extends Component {
                     franca (Eubalaena japónica); la nutria marina (Enhydra lutris); la cacerolita de mar (Limulus 
                     polyphemus); y el cangrejo (Typhlopseudothelphusa mocinoi)</h6>
             </div>
+
+            <div className='row info'>
+                <h3>Pero, ¿por qué pasa esto?</h3>
+                <h6>
+                Entre los problemas que se han detectado se encuentran los siguientes: desarrollo turístico desordenado; 
+                crecimiento demográfico sin contar con planes de desarrollo urbano y ordenamientos ecológicos locales 
+                adecuados; así como impacto de las descargas urbanas, agrícolas e industriales en los ríos, arroyos y 
+                ecosistemas costeros-marinos.
+                </h6>
+                <h6>De igual forma, la extracción ilegal de conchas y corales para uso artesanal; contaminación por buques 
+                    tanque y detergentes tóxicos; saqueo de nidos de tortugas marinas; aumento de basura orgánica e inorgánica; 
+                    y reducción de arrecifes por diversas fuentes de impacto (contaminación, accidentes y deterioro incontrolado, 
+                    entre otras).</h6>
+            </div>
+
+            <div className='row info'>
+                <h3>¿Alguien está haciendo algo?</h3>
+                <h6>
+                Para atender la problemática mencionada, la PROFEPA mantiene en operación permanente las siguientes líneas de acción:
+                <ul>
+                    <li>Programa de Inspección de Áreas Naturales Protegidas Marinas y Litorales.</li>
+                    <li>Programa de vigilancia en sitios de anidación de Tortugas Marinas.</li>
+                    <li>Plan de Verificación de Dispositivos Excluidores de Tortuga marina.</li>
+                    <li>Programa permanente de protección a la Vaquita Marina.</li>
+                    <li>Programa de vigilancia para la protección de especies en riesgo “Ballenas y Tiburón Ballena”.</li>
+                    <li>Programa de atención para la inspección a campamentos tortugueros.</li>
+                    <li>Programa de atención para la inspección a delfines y delfinarios.</li>
+                    <li>Atención a contingencias en Recursos Marinos.</li>
+                </ul>
+                </h6>
+                
+            </div>
+
+            <div className='row info'>
+                <h3>¿Qué podemos hacer nosotros?</h3>
+                <h6>
+                <ul>
+                    <li>Denuncia la cacería ilegal.</li>
+                    <li>Denuncia el mercadeo de especies en el mercado negro</li>
+                    <li>Sigue las indicaciones de los responsables de cuidar especies y ecosistemas, si ellos dicen que no te puedes llevar ni siquiera arena, NO LO HAGAS.</li>
+                </ul>
+                </h6>
+                <h4>Recuerda que el planeta es nuestro hogar, y tenemos que compartirlo con muchísimas especies, cuídalos también.</h4>
+            </div>
         <br/><br/><br/></div>
 
     );

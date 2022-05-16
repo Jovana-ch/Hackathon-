@@ -72,3 +72,11 @@
   width: 1400px;
   height: 500px;
 }
+
+.info{
+  box-shadow: 2px 2px 2px 1px grey;
+  border-radius: 15px;
+  background-color: #d9f3fa;
+  padding: 2%;
+  margin: 2%;
+}
