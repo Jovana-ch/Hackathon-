@@ -14,4 +14,17 @@ Se hizo un diseño de pantallas para darse de como se quería que quedara el sis
 El propósito de este sitio web es informar a la población en general acerca de las especies en peligro de extinción con el fin de concientizar y comenzar a tomar acciones para minimizar el riesgo de extinción y aumentar la posibilidad de preservar diferentes especies.
 
 
+Por ahora, la aplicación solo corre de manera local, para correr el front-end es necesario hacer `npm install` para que se genere una carpeta llamada `node_modules` y para que se actualice el archivo `package-lock.json`. Una vez instaladas las dependencias, se ejecuta el comando `npm run dev`. Por el momento la página luce de esta manera:
+
+
+
+https://user-images.githubusercontent.com/99373164/168507885-91a08390-3acd-4994-bc6c-ea4583011862.mp4
+
+
+
+
+Es necesario clonar y correr el proyecto de Back-end para que se muestren las imágenes y la información de las especies sin problema.
+
 Repositorio del Back-end: https://github.com/Julioadriglez/casi-extinto.git
+
+
