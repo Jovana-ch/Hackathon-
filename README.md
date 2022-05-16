@@ -32,3 +32,6 @@ Es necesario clonar y correr el proyecto de Back-end para que se muestren las im
 Repositorio del Back-end: https://github.com/Julioadriglez/casi-extinto.git
 
 
+Tecnología utilizada para Front-end: React Js
+
+
