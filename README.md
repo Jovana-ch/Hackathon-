@@ -32,8 +32,8 @@ Es necesario clonar y correr el proyecto de Back-end para que se muestren las im
 Repositorio del Back-end: https://github.com/Julioadriglez/casi-extinto.git
 
 
-
-Problemática​
+_______________________________________________________________________
+Problemática​ : 
 Especies en peligro de extinción y la falta de conocimiento por parte de la población en general, así como de algunas organizaciones.​
 __________________________________________________________________________
 Solución:​
