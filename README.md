@@ -32,6 +32,24 @@ Es necesario clonar y correr el proyecto de Back-end para que se muestren las im
 Repositorio del Back-end: https://github.com/Julioadriglez/casi-extinto.git
 
 
+
+Problemática​
+Especies en peligro de extinción y la falta de conocimiento por parte de la población en general, así como de algunas organizaciones.​
+__________________________________________________________________________
+Solución:​
+
+Un sitio web que informe a la población en general acerca de las especies en peligro de extinción con el fin de concientizar y comenzar a tomar acciones para minimizar el riesgo de extinción y aumentar la posibilidad de preservar diferentes especies.
+________________________________________________________________________
 Tecnología utilizada para Front-end: React Js
+________________________________________________________________________
+Link para el video de tik tok: https://vm.tiktok.com/ZMLc37TRq/?k=1
+_______________________________________________________________________
+|Nombres y correos electrónicos de los integrantes: |
+| -------------------------------------------------  |
+ | Miriam Araceli Luna Carreón - launchx08282@innovaccion.mx ​| 
+  | Julio Adrian Gonzalez - launchx04816@innovaccion.mx ​ |
+  | Jovana Chico - launchx03162@innovaccion.mx ​ |
+  | Cristobal Simon Ramírez - launchx05814@innovaccion.mx ​ |
+  | Gerardo Esqueda - launchx05501@innovaccion.mx ​ |
 
 
