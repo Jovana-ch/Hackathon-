@@ -18,7 +18,11 @@ Por ahora, la aplicación solo corre de manera local, para correr el front-end e
 
 
 
-https://user-images.githubusercontent.com/99373164/168507885-91a08390-3acd-4994-bc6c-ea4583011862.mp4
+
+
+https://user-images.githubusercontent.com/99373164/168511368-9e864bee-9742-47d7-9479-117f67a78386.mp4
+
+
 
 
 
