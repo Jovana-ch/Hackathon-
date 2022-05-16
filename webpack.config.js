@@ -62,9 +62,9 @@ module.exports = {
     historyApiFallback: true,
     hot: true,
     proxy: {
-      '/api': 'http://localhost:3003',
+      '/api': 'http://localhost:3000',
       '/hackathon-api': {
-        target: 'http://localhost:3003/v1/',
+        target: 'http://localhost:3000/v1/',
         pathRewrite: { '^/hackathon-api': '' },
         secure: false
       }
